@@ -10,8 +10,8 @@ import (
 )
 
 const (
-	//ETCD_LOCAL is entrpiont of local etcd instance
-	ETCD_LOCAL = "http://127.0.0.1:2379"
+	//EtcdLocal is entrpiont of local etcd instance
+	EtcdLocal = "http://127.0.0.1:2379"
 )
 
 // Store is a store implementation backed by etcd
