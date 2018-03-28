@@ -50,6 +50,7 @@ func main() {
 	}
 
 	server.ConfigureAPI()
+	server.Port = 8080
 
 	if err := server.Serve(); err != nil {
 		log.Fatalln(err)
